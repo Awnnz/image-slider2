@@ -20,6 +20,9 @@ const config = {
     path: path.resolve(__dirname, "dist"),
     clean: true
   },
+  devServer: {
+    static: './dist',
+  },
   plugins: [
     new HtmlWebpackPlugin({
         title: 'Output Management',
