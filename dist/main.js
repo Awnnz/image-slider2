@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `* {\n    box-sizing: border-box;\n    /* margin: 0;\n    padding: 0; */\n}\n\nbody {\n    color: red;\n}\n\nbutton {\n    background-color: red;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-template/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `* {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n}\n\nbody {\n    height: 100vh;\n    width: 100vw;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\nimg {\n    max-width: 100%;\n}\n\n.slider {\n    position: relative;\n    width: 1000px;\n    margin: 0 20px;\n}\n\n.wrapper {\n    position: relative;\n    /* height: 225px;\n    width: 400px; */\n    padding-top: calc((9/16) * 100%);\n    background-color: black;\n    overflow: hidden;\n    margin-bottom: 20px;\n}\n\n.slide {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    top: 0;\n    left: 0;  \n    transform: translate(-100%); \n}\n\n.active-slide {\n    transform: translate(0);\n}\n\n.slides-indicator {\n    position: absolute;\n    /* display: flex;\n    justify-content: center;\n    align-items: center; */\n    bottom: -25px;\n    width: 100%;\n    /* border: black 1px solid; */\n    text-align: center;\n    height: 30px;\n    left: 0;\n}\n\n.slides-indicator button {\n    margin: 0 8px;\n    position: relative;\n    background: grey;\n    height: 6px;\n    width: 6px;\n    border: none;\n    outline: none;\n    cursor: pointer;\n    border-radius: 100%;\n}\n\n.slides-indicator button::after {\n    position: absolute;\n    content: '';\n    /* background: blue; */\n    height: 300%;\n    width: 300%;\n    /* border: black 2px solid; */\n    transform: translate(-50%, -50%);\n}\n\n.slides-indicator button.active-button {\n    background-color: red;\n}\n\n.prev-button, .next-button {\n    position: absolute;\n    height: 100%;\n    width: 15%;\n    top: 0;\n    left: 0;\n    border-radius: 0 100% 100% 0;\n    border: none;\n    outline: none;\n    background-color: rgba(255, 255, 2552, .0);\n}\n\n.prev-button:hover, .next-button:hover {\n    background-color: rgba(255, 255, 255, .2);\n}\n\n.prev-button:active, .next-button:active {\n    background-color: rgba(255, 255, 255, .1);\n}\n\n.next-button {\n    left: auto;\n    right: 0;\n    border-radius: 100% 0 0 100%;\n}\n\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-template/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,67 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nconst test = document.createElement('div');\ntest.innerHTML = 'sup';\n\ndocument.body.appendChild(test);\n\n//# sourceURL=webpack://webpack-template/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_image_slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/image-slider */ \"./src/modules/image-slider.js\");\n/* harmony import */ var _images_slide_img1_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/slide-img1.jpg */ \"./src/images/slide-img1.jpg\");\n/* harmony import */ var _images_slide_img2_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/slide-img2.jpg */ \"./src/images/slide-img2.jpg\");\n/* harmony import */ var _images_slide_img3_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/slide-img3.jpg */ \"./src/images/slide-img3.jpg\");\n/* harmony import */ var _images_slide_img4_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/slide-img4.jpg */ \"./src/images/slide-img4.jpg\");\n/* harmony import */ var _images_slide_img5_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/slide-img5.jpg */ \"./src/images/slide-img5.jpg\");\n\n\n\n\n\n\n\n\n\nconst imageCollection = [_images_slide_img1_jpg__WEBPACK_IMPORTED_MODULE_1__, _images_slide_img2_jpg__WEBPACK_IMPORTED_MODULE_2__, _images_slide_img3_jpg__WEBPACK_IMPORTED_MODULE_3__, _images_slide_img4_jpg__WEBPACK_IMPORTED_MODULE_4__, _images_slide_img5_jpg__WEBPACK_IMPORTED_MODULE_5__];\n\n\ndocument.body.appendChild((0,_modules_image_slider__WEBPACK_IMPORTED_MODULE_0__.createImageSlider)(imageCollection));\n\n\n//# sourceURL=webpack://webpack-template/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/image-slider.js":
+/*!*************************************!*\
+  !*** ./src/modules/image-slider.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createImageSlider: () => (/* binding */ createImageSlider)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../style.css */ \"./src/style.css\");\n\nfunction createImageSlider(imgArr) {\n\n    const slider = document.createElement('div');\n    const wrapper = document.createElement('div');\n    const slidesIndicator = document.createElement('div');\n    const prevBtn = document.createElement('button');\n    const nextBtn = document.createElement('button');\n\n    // Create image slides + corresponding buttons\n    imgArr.forEach((img, index) => {\n        const slide = document.createElement('div');\n        slide.classList.add('slide');\n        const newImg = new Image();\n        const IndicatorBtn = document.createElement('button');\n        newImg.src = img;\n\n        if (index === 0) {\n            slide.classList.add('active-slide');\n            IndicatorBtn.classList.add('active-button');\n        }\n\n        slide.appendChild(newImg);\n        slidesIndicator.appendChild(IndicatorBtn)\n        wrapper.appendChild(slide);\n    });\n\n    slider.classList.add('slider');\n    wrapper.classList.add('wrapper');\n    slidesIndicator.classList.add('slides-indicator');\n    prevBtn.classList.add('prev-button');\n    nextBtn.classList.add('next-button');\n\n    slider.appendChild(wrapper);\n    slider.appendChild(slidesIndicator);\n    slider.appendChild(prevBtn);\n    slider.appendChild(nextBtn);\n\n    const allSlides = wrapper.children;\n    const IndicatorButtons = slidesIndicator.children;\n\n    let currentSlideIndex = 0;\n\n    function changeSlides(currentSlide, selectedSlide) {\n        currentSlide.classList.remove('active-slide');\n        selectedSlide.classList.add('active-slide');\n    };\n\n    function updateIndex(operation) {\n        switch (operation) {\n            case 'next': currentSlideIndex = currentSlideIndex === imgArr.length -1 ? 0 : currentSlideIndex += 1;\n                break;\n            \n            case 'previous': currentSlideIndex = currentSlideIndex === 0 ? imgArr.length - 1 : currentSlideIndex -= 1;\n                break;\n\n            default: currentSlideIndex = operation;\n        };\n    };\n\n    function changeIndicatorBtn(currentBtn, selectedBtn) {\n        currentBtn.classList.remove('active-button');\n        selectedBtn.classList.add('active-button');\n    };\n\n    function slideAnimation(currentSlide, selectedSlide, slideDirection) {\n        const selecteddSlideIndex = Array.prototype.indexOf.call(\n            selectedSlide.parentElement.children,\n            selectedSlide,\n          );\n        \n        let pos;\n        switch(slideDirection) {\n            case 'next': pos = -100\n            break;\n\n            case 'previous': pos = 100;\n            break;\n\n            default: pos = (currentSlideIndex > selecteddSlideIndex) ? -100 : 100;\n        };\n            \n        currentSlide.animate([{transform: `translateX(0)`}, {transform: `translateX(${pos}%)`}], {\n            duration: 300,\n            easing: 'linear',\n        })\n\n        selectedSlide.animate([{transform: `translateX(${pos * -1}%)`}, {transform: `translateX(0)`}], {\n            duration: 300,\n            easing: 'linear',\n        })\n    };\n\n    nextBtn.addEventListener('click', () => {\n        const nextSlide = currentSlideIndex !== imgArr.length - 1 ? currentSlideIndex + 1 : 0;\n        slideAnimation(allSlides[currentSlideIndex], allSlides[nextSlide], 'next');\n        changeSlides(allSlides[currentSlideIndex], allSlides[nextSlide]);\n        changeIndicatorBtn(IndicatorButtons[currentSlideIndex], IndicatorButtons[nextSlide]);\n        updateIndex('next');\n    });\n\n    prevBtn.addEventListener('click', () => {\n        const prevSlide = currentSlideIndex === 0 ? imgArr.length - 1 : currentSlideIndex - 1;\n        slideAnimation(allSlides[currentSlideIndex], allSlides[prevSlide], 'previous')\n        changeSlides(allSlides[currentSlideIndex], allSlides[prevSlide]);\n        changeIndicatorBtn(IndicatorButtons[currentSlideIndex], IndicatorButtons[prevSlide]);\n        updateIndex('previous');\n    });\n\n    [...IndicatorButtons].forEach(button => {\n\n        button.addEventListener('click', (function () {\n            const selectedSlideIndex = Array.prototype.indexOf.call(\n                this.parentElement.children,\n                this,\n              );\n            slideAnimation(allSlides[currentSlideIndex], allSlides[selectedSlideIndex], 'select');\n            changeSlides(allSlides[currentSlideIndex], allSlides[selectedSlideIndex]);\n            changeIndicatorBtn(IndicatorButtons[currentSlideIndex], IndicatorButtons[selectedSlideIndex]);\n            updateIndex(selectedSlideIndex);\n        }));\n\n    });\n\n    return slider;\n}\n\n//# sourceURL=webpack://webpack-template/./src/modules/image-slider.js?");
+
+/***/ }),
+
+/***/ "./src/images/slide-img1.jpg":
+/*!***********************************!*\
+  !*** ./src/images/slide-img1.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"66ed0ae4ed3a6a89b3dc.jpg\";\n\n//# sourceURL=webpack://webpack-template/./src/images/slide-img1.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/slide-img2.jpg":
+/*!***********************************!*\
+  !*** ./src/images/slide-img2.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a60a74239a1e9b094fbf.jpg\";\n\n//# sourceURL=webpack://webpack-template/./src/images/slide-img2.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/slide-img3.jpg":
+/*!***********************************!*\
+  !*** ./src/images/slide-img3.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ababe7daa3d9daad12b3.jpg\";\n\n//# sourceURL=webpack://webpack-template/./src/images/slide-img3.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/slide-img4.jpg":
+/*!***********************************!*\
+  !*** ./src/images/slide-img4.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7f963dced795c7ed959e.jpg\";\n\n//# sourceURL=webpack://webpack-template/./src/images/slide-img4.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/slide-img5.jpg":
+/*!***********************************!*\
+  !*** ./src/images/slide-img5.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ddee1a26025d35e5782d.jpg\";\n\n//# sourceURL=webpack://webpack-template/./src/images/slide-img5.jpg?");
 
 /***/ })
 
@@ -171,6 +231,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +257,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

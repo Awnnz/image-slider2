@@ -5,9 +5,108 @@
 }
 
 body {
-    color: red;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-button {
+img {
+    max-width: 100%;
+}
+
+.slider {
+    position: relative;
+    width: 1000px;
+    margin: 0 20px;
+}
+
+.wrapper {
+    position: relative;
+    /* height: 225px;
+    width: 400px; */
+    padding-top: calc((9/16) * 100%);
+    background-color: black;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.slide {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;  
+    transform: translate(-100%); 
+}
+
+.active-slide {
+    transform: translate(0);
+}
+
+.slides-indicator {
+    position: absolute;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    bottom: -25px;
+    width: 100%;
+    /* border: black 1px solid; */
+    text-align: center;
+    height: 30px;
+    left: 0;
+}
+
+.slides-indicator button {
+    margin: 0 8px;
+    position: relative;
+    background: grey;
+    height: 6px;
+    width: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.slides-indicator button::after {
+    position: absolute;
+    content: '';
+    /* background: blue; */
+    height: 300%;
+    width: 300%;
+    /* border: black 2px solid; */
+    transform: translate(-50%, -50%);
+}
+
+.slides-indicator button.active-button {
     background-color: red;
 }
+
+.prev-button, .next-button {
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    top: 0;
+    left: 0;
+    border-radius: 0 100% 100% 0;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 2552, .0);
+}
+
+.prev-button:hover, .next-button:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.prev-button:active, .next-button:active {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.next-button {
+    left: auto;
+    right: 0;
+    border-radius: 100% 0 0 100%;
+}
+
